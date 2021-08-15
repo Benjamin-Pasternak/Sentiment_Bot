@@ -1,6 +1,8 @@
 import re
 import discord
 from textblob import TextBlob
+import spacy
+
 
 
 class MyClient(discord.Client):
