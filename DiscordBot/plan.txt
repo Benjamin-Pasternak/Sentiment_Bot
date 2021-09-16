@@ -1,0 +1,31 @@
+"""
+plan:
+- sentiment measurement (weighted) is toxicity rating
+- objectivity measurements - some other rating
+- worst statement
+- most positive statement
+- favorite channel
+- dump all messages to a database
+    - include following info:
+        - author: who wrote message
+        - guild_id: id of server message was sent to
+        - channel_id: id of channel message was sent to
+        - timestamp
+        - edited_timestamp
+        - mentions_everyone
+        - mentions***
+        - mention_rolse
+        - attachments
+        - embeds
+        - reactions
+        - pinned
+        - webhook_id
+        - message_reference: data showing the source of a crosspost, channel follow add, pin, or reply message
+        - referenced_message?*****
+        - components?
+        - sticker_items?
+        - stickers?
+        - content
+
+Requires 2 collections: 1 for users for general functionality, another
+"""
